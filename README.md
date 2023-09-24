@@ -3,10 +3,11 @@ Generate shprtest path (SP) statistics of CGMD configurations characterized by c
 
 ## Cite
 If you use the analytic results or the BRW code presented in this repository, cite
-* To be added
+* Modeling Shortest Paths in Polymeric Networks using Spatial Branching Processes (in prepraration)
 
 If you use the foundational arguments to motivate SP evolution as a microstructural parameter that goerns macroscopic material response then cite
-* To be added
+* Topological origin of strain induced damage of multi-network elastomers by bond breaking (https://doi-org.stanford.idm.oclc.org/10.1016/j.eml.2020.100883)
+* How microstructure governs strain-induced damage and self-healing of elastomers with dynamic bonds (in prepraration)
 
 ## Installation
 Use the following lines to get all the dependencies setup
@@ -71,7 +72,8 @@ python3 branch_rw.py --correlated --crho_analysis --box_min 20 --dim 3 --jump 1 
 For any support regarding the implementation of the source code, contact the developers at: 
 * Shaswat Mohanty (shaswatm@stanford.edu)
 * Wei Cai (caiwei@stanford.edu)
-FOr clarifications on the theoretical approach reach out to
+
+For clarifications on the theoretical approach reach out to
 * Zhenyuan Zhang (zzy@stanford.edu)
 * Jose Blanchett (jose.blanchett@stanford.edu)
 
