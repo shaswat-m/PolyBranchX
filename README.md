@@ -36,6 +36,7 @@ python3 theory_util.py --GBRW --rho_range large ;
 * The correlation for the BMRW can be enabled using the `--correlated` flag.
 * BBM and GBRW can be enabled using the `--gaussian` flag for gaussian steps instead of constant length jumps.
 * The analysis for a signel branching rate can be computed using the `--single_analysis` flag. The mean SP as a function of various measuring lengths, $q_x$, can be computed using the `--tau_analysis` flag. The estimation of $c_1$ and $\overline{c}_1$ as a function of $\tilde{\lambda}$ can be computed using the `--crho_analysis` flag.
+* Running the default 1000 paths might be time-consuming on the local system and you can choose smaller value, let's say, 50 by using the flag `--num_paths 50`
 
 # Computing the SP distribution for a single branching rate for the BMRW, scaled BRW and the GBRW
 Usage of the `--single_analysis` flag:
