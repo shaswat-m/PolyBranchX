@@ -6,7 +6,7 @@ If you use the analytic results or the BRW code presented in this repository, ci
 * Modeling Shortest Paths in Polymeric Networks using Spatial Branching Processes (in prepraration)
 
 If you use the foundational arguments to motivate SP evolution as a microstructural parameter that goerns macroscopic material response then cite
-* Topological origin of strain induced damage of multi-network elastomers by bond breaking (https://doi-org.stanford.idm.oclc.org/10.1016/j.eml.2020.100883)
+* Topological origin of strain induced damage of multi-network elastomers by bond breaking (https://doi.org/10.1016/j.eml.2020.100883)
 * How microstructure governs strain-induced damage and self-healing of elastomers with dynamic bonds (in prepraration)
 
 ## Installation
