@@ -76,7 +76,7 @@ For any support regarding the implementation of the source code, contact the dev
 
 For clarifications on the theoretical approach reach out to
 * Zhenyuan Zhang (zzy@stanford.edu)
-* Jose Blanchett (jose.blanchett@stanford.edu)
+* Jose Blanchet (jose.blanchet@stanford.edu)
 
 
 ## Contributing
