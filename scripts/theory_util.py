@@ -449,7 +449,7 @@ def main():
     parser.add_argument("--BBM",      default=False, action="store_true", help="to plot Sp distributions as a function of box size")
     parser.add_argument("--GBRW", default=False, action="store_true",
                         help="to plot C1 vs rho")
-    parser.add_argument("--rate",   type=float, default=3.0/500.0, help="termination rate in units of inverse time")
+    parser.add_argument("--rate",   type=float, default=2.0/500.0, help="termination rate in units of inverse time")
     parser.add_argument("--dim", type=int, default=3, help="Branching random-walk dimensionality")
     parser.add_argument("--rho_range", type=str, default='small', help="minimum rate to use in tau analysis")
     parser.add_argument("--method", type=str, default='termination', help="maximum rate to use in tau analysis")

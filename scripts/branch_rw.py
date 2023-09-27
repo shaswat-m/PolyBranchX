@@ -283,7 +283,7 @@ class Branched_1D_Walkers():
         if self.traj.shape[0]>1:
             cpath = self.traj.shape[0]
             p_val = np.random.rand(cpath)
-            dind = np.where(p_val < 3.0/500.0 )[0]
+            dind = np.where(p_val < 2.0/500.0 )[0]
             if len(dind)==self.traj.shape[0]:
                 ttind = dind.copy()
                 dind = ttind[:-1]
@@ -809,7 +809,7 @@ class Branched_2D_Walkers():
         if self.traj.shape[0]>1:
             cpath = self.traj.shape[0]
             p_val = np.random.rand(cpath)
-            dind = np.where(p_val < 3.0 / 500.0)[0]
+            dind = np.where(p_val < 2.0 / 500.0)[0]
             if len(dind)==self.traj.shape[0]:
                 ttind = dind.copy()
                 dind = ttind[:-1]
@@ -1405,7 +1405,7 @@ class Branched_3D_Walkers():
         if self.traj.shape[0]>1:
             cpath = self.traj.shape[0]
             p_val = np.random.rand(cpath)
-            dind = np.where(p_val < 3.0 / 500.0 * self.dt)[0]
+            dind = np.where(p_val < 2.0 / 500.0 * self.dt)[0]
             if len(dind)==self.traj.shape[0]:
                 ttind = dind.copy()
                 dind = ttind[:-1]
