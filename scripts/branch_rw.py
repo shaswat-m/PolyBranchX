@@ -1640,10 +1640,8 @@ class Branched_3D_Walkers():
         if self.rho_max > 1.5:
             self.rho_arr = np.linspace((self.rho_min), (self.rho_max), self.rho_points)
         else:
-            #self.rho_arr = 1.0 + 1.0*np.linspace(0.016, 0.224, 14)
-            #self.rho_arr = np.array([1.02159064738560, 1.03193204310997, 1.04173084853944, 1.05472720106219, 1.06814967496303, 1.07968993794286, 1.09160035392047, 1.10189721378878, 1.11466092824955, 1.12715633126100, 1.13984018515178, 1.15152007413252, 1.16610939532494, 1.17742605132196])
             self.rho_arr = np.array([1.0295233547701528, 1.0376824580907913, 1.0457569507079911, 1.0594585479958203, 1.075720859698337, 1.0860194380000792, 1.097926243894198, 1.1085438423022842, 1.1221982305721785, 1.1346392570776829, 1.1485329189890172, 1.158463320987782, 1.1738380193069964, 1.1867845421985102])
-            self.boxes = np.exp(np.linspace(np.log(self.box_min), np.log(self.box), self.log_points))
+            self.boxes = np.array([0.25, 0.5, 0.75, 1]) * 65.5028
         self.c_arr = np.zeros(len(self.rho_arr))
         self.c_arr_bar = np.zeros(len(self.rho_arr))
         self.sig_arr = np.zeros(len(self.rho_arr))
