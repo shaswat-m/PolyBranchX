@@ -3,11 +3,11 @@ Generate shprtest path (SP) statistics of CGMD configurations characterized by c
 
 ## Cite
 If you use the analytic results or the BRW code presented in this repository, cite
-* Modeling Shortest Paths in Polymeric Networks using Spatial Branching Processes (in prepraration)
+* Modeling Shortest Paths in Polymeric Networks using Spatial Branching Processes (https://doi.org/10.48550/arXiv.2310.18551)
 
 If you use the foundational arguments to motivate SP evolution as a microstructural parameter that goerns macroscopic material response then cite
 * Topological origin of strain induced damage of multi-network elastomers by bond breaking (https://doi.org/10.1016/j.eml.2020.100883)
-* How microstructure governs strain-induced damage and self-healing of elastomers with dynamic bonds (in prepraration)
+* How microstructure governs strain-induced damage and self-healing of elastomers with dynamic bonds (in preparation)
 
 ## Installation
 Use the following lines to get all the dependencies setup
