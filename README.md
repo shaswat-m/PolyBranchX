@@ -62,8 +62,15 @@ python3 branch_rw.py --gaussian --crho_analysis --box_min 20 --dim 3 --jump $(bc
 python3 branch_rw.py --correlated --crho_analysis --box_min 20 --dim 3 --jump 1 --rho_max $(bc -l <<<1.2) --rho_points 14 --purge  --stationary --count_link --terminate ;
 ```
 
+# Simulation the GBRW with an asymmetric jump distribution
+A separate script `asymm_branch_rw.py` has been developed along the lines of the parent script `branch_rw.py`. The script is subjectoto further development but it currently supports the FPT calculations for a GBRW with an asymmetric jump distribution where the path purging criteria is modified to account for the resultant spatial distribution of the jumps. By default the script runs assuming asymmetric yet independent jumps, however, use the `--dependent` flag to introduce dependency between the directions for the asymmetric jumps. The covariance matrix for both cases is hard-coded for the time being.
+```
+python3 asymm_branch_rw.py --dependent --crho_analysis --box_min 20 --dim 3 --jump 1.732 --rho_max 2.9 --rho_points 19 --purge  --stationary --num_paths 1000 --gaussian ;
+python3 asymm_branch_rw.py --dependent --crho_analysis --box_min 20 --dim 3 --jump 1.732 --rho_max 2.9 --rho_points 19 --purge  --stationary --num_paths 1000 --gaussian ;
+```
+
 ## Publications 
-* To be added
+* Modeling Shortest Paths in Polymeric Networks using Spatial Branching Processes (https://doi.org/10.48550/arXiv.2310.18551)
 
 ## Conference presentations
 * To be added
