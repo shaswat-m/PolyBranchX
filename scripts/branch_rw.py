@@ -1228,7 +1228,7 @@ class Branched_3D_Walkers():
             bool: True if the termination criteria is met, False otherwise.
         """
         self.evolved_traj = self.traj.cumsum(1)
-        self.crossing = ((self.evolved_traj[:,:,0]-self.box)**2+self.evolved_traj[:,:,1]**2+self.evolved_traj[:,:,1]**2<4).astype(int)
+        self.crossing = ((self.evolved_traj[:,:,0]-self.box)**2+self.evolved_traj[:,:,1]**2+self.evolved_traj[:,:,2]**2<1).astype(int)
         self.maxd = self.evolved_traj.max()
         return self.criteria in self.crossing
 
