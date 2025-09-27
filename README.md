@@ -12,9 +12,63 @@ If you use the analytic results or the BRW code presented in this repository, ci
   year={2023}
 }
 ```
+More details on the anisotropic evolution of the polymer networks through the Monte Carlo BRW approach can be found in:
+* On the First Passage Times of Branching Random Walks in Rd (https://arxiv.org/pdf/2404.09064)
+```
+@article{blanchet2024first,
+  title={On the First Passage Times of Branching Random Walks in $$\backslash$mathbb R\^{} d$},
+  author={Blanchet, Jose and Cai, Wei and Mohanty, Shaswat and Zhang, Zhenyuan},
+  journal={arXiv preprint arXiv:2404.09064},
+  year={2024}
+}
+```
+
+Further analytic estimates and accelerated algorithms to reconstruct the SP distribution can be found in:
+* Large Deviations of First Passage Times of Branching Random Walks in : Asymptotics and Algorithms (https://arxiv.org/pdf/2506.15072)
+```
+@article{blanchet2025large,
+  title={Large Deviations of First Passage Times of Branching Random Walks in $$\backslash$mathbb $\{$R$\}$\^{} d $: Asymptotics and Algorithms},
+  author={Blanchet, Jose and Cai, Wei and Mohanty, Shaswat and Zhang, Zhenyuan},
+  journal={arXiv preprint arXiv:2506.15072},
+  year={2025}
+}
+```
+
 If you use the foundational arguments to motivate SP evolution as a microstructural parameter that goerns macroscopic material response then cite
 * Topological origin of strain induced damage of multi-network elastomers by bond breaking (https://doi.org/10.1016/j.eml.2020.100883)
-* How microstructure governs strain-induced damage and self-healing of elastomers with dynamic bonds (in preparation)
+```
+@article{yin2020topological,
+  title={Topological origin of strain induced damage of multi-network elastomers by bond breaking},
+  author={Yin, Yikai and Bertin, Nicolas and Wang, Yanming and Bao, Zhenan and Cai, Wei},
+  journal={Extreme Mechanics Letters},
+  volume={40},
+  pages={100883},
+  year={2020},
+  publisher={Elsevier}
+}
+```
+* Network evolution controlling strain-induced damage and self-healing of elastomers with dynamic bonds (https://arxiv.org/pdf/2401.11087)
+```
+@article{yin2024network,
+  title={Network evolution controlling strain-induced damage and self-healing of elastomers with dynamic bonds},
+  author={Yin, Yikai and Mohanty, Shaswat and Cooper, Christopher B and Bao, Zhenan and Cai, Wei},
+  journal={Macromolecules},
+  volume={57},
+  number={13},
+  pages={6410--6418},
+  year={2024},
+  publisher={ACS Publications}
+}
+```
+* Why the strength of polymer networks is so low? (https://arxiv.org/pdf/2502.11339)
+```
+@article{mohanty2025strength,
+  title={Why is the strength of a polymer network so low?},
+  author={Mohanty, Shaswat and Blanchet, Jose and Suo, Zhigang and Cai, Wei},
+  journal={arXiv preprint arXiv:2502.11339},
+  year={2025}
+}
+```
 
 ## Installation
 Use the following lines to get all the dependencies setup
